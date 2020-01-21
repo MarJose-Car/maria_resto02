@@ -1,0 +1,125 @@
+
+/* feuille de style resto*/
+body {
+    background: rgb(173, 243, 225);
+    font-family: 'Caveat Brush', cursive;
+    font-size: 1em;
+}
+ /*id conteneur pour le contenu principal*/
+#conteneur {
+    background: url(../img/motif.jpg) no-repeat;
+    background-size: cover;
+    width: 1000px;
+    margin: 0 auto;
+}
+/*le en tête*/
+header {
+    background: url(../img/planches.jpg) no-repeat;
+    background-size: cover;
+    /* background: url(../img/cerf.png) no-repeat;
+    background-size: inherit;
+    opacity: .5; */
+    height: 500px;
+}
+.header {
+    width: 100%;
+}
+.cerf {
+    width: 200px;
+    height: 200px;
+    margin:0 auto;
+}
+h1, h2 {
+    text-transform: uppercase;
+}
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+/* la navigation*/
+nav {
+    height: 150px;
+    float: right;
+}
+nav a {
+    padding: 10px;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    font-size: 20px;
+}
+nav a:hover {
+    color: #fff;
+    background: #069;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+a:hover {
+      color: #fff;
+    background: #069;
+}
+li {
+     display: inline;
+     padding: 40px;
+}
+li a {
+    color: #000;
+    text-decoration: none;
+}
+/*mise en page*/
+.display {
+    /* background: rgb(250, 155, 40); */
+    display: inline-block;
+}
+p {
+    font-weight: 400;
+    text-align: center;
+    padding: 20px;
+}
+.texte, .img, .texte1, .img1 {
+    height: 500px;
+    text-align: center;
+}
+.texte, .img {
+    /* background: rgb(255, 255, 255); */
+}
+.texte {
+    width: 300px;
+    float: left;
+}
+.img {
+    width: 700px;
+    float: right;
+}
+.texte1, .img1 {
+    /* background: brown; */
+}
+.img1 {
+    height: 500px;
+    float: left;
+}
+.texte1 {
+    position: relative;
+    width: 20%;
+    float: right;
+}
+.oeuf {
+}
+footer {
+    height: 100px;
+    /* background: rgb(186, 238, 109); */
+}
+.social {
+    background-color: #fff;
+    width: 25%;
+    float: left;
+    color: rgb(235, 39, 39);
+}
+.clear {
+    clear: both;
+}
+
+
