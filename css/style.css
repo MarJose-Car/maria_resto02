@@ -29,52 +29,65 @@ header {
     height: 200px;
     margin:0 auto;
 }
-h1, h2 {
+h2 {
     text-transform: uppercase;
+    font-style: italic;
+    font-size: 20px;
+    font-weight: bold;   
+}
+h1 {
+    text-transform: uppercase;
+    font-style: italic;
+    font-size: 60px;
+    font-weight: bold; 
+    float: left;
+    padding: 40px;
 }
 h2 {
     font-family: 'Roboto', sans-serif;
-    font-weight: bold;
     text-align: center;
 }
 /* la navigation*/
 nav {
+    padding: 40px;
     height: 150px;
     float: right;
 }
 nav a {
-    padding: 10px;
     text-decoration: none;
     color: #000;
     font-weight: bold;
     font-size: 20px;
 }
 nav a:hover {
-    color: #fff;
-    background: #069;
+    color: #000;
+    background: rgb(129, 248, 218);
+    opacity: 0.5;
 }
 a {
     text-decoration: none;
     color: #000;
 }
 a:hover {
-      color: #fff;
-    background: #069;
+    color: #000;
+    background: rgb(129, 248, 218);
+    opacity: 0.5;
 }
 li {
      display: inline;
      padding: 40px;
 }
 li a {
-    color: #000;
+    color: rgb(0, 0, 0);
     text-decoration: none;
 }
-/*mise en page*/
+/* structure du contenu de la page*/
 .display {
-    /* background: rgb(250, 155, 40); */
     display: inline-block;
 }
 p {
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
     font-weight: 400;
     text-align: center;
     padding: 20px;
@@ -83,9 +96,6 @@ p {
     height: 500px;
     text-align: center;
 }
-.texte, .img {
-    /* background: rgb(255, 255, 255); */
-}
 .texte {
     width: 300px;
     float: left;
@@ -93,9 +103,6 @@ p {
 .img {
     width: 700px;
     float: right;
-}
-.texte1, .img1 {
-    /* background: brown; */
 }
 .img1 {
     height: 500px;
@@ -106,17 +113,29 @@ p {
     width: 20%;
     float: right;
 }
+.graine {
+    opacity: .6;
+}
 .oeuf {
 }
+/*le pied de page*/
 footer {
     height: 100px;
-    /* background: rgb(186, 238, 109); */
+}
+footer h2 {
+    font-family: 'Caveat Brush', cursive;
+    text-align: left;
+    padding: 20px;
+    font-size: 50px;
+    font-style: italic;
+}
+footer p {
+    text-align: left;
 }
 .social {
     background-color: #fff;
-    width: 25%;
-    float: left;
-    color: rgb(235, 39, 39);
+    padding: 30px;
+    float: right;
 }
 .clear {
     clear: both;
